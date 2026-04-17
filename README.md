@@ -10,4 +10,5 @@ Parses the resulting page and obtains from it:
 
 Creates and writes to disk a JSON file with a list of stations by line and a list of lines in the following format:
 ![](https://github.com/artemmad/JavaAllExercices/blob/master/src/ru/mirea/exercies25and26/1.png?raw=true)
+
 Reads the file and outputs the number of stations on each line to the console.
