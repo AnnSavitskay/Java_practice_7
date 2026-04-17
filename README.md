@@ -1,13 +1,13 @@
-# Prak_25_26
-# Задание к Практической №25 и №26
+# Java_practice_7
+# Assignment for Practice #25 and #26
 
-# 1) Получение данных из HTML-страницы, создания и чтения JSON-файлы.
-Получает HTML-код страницы «Список станций Московского метрополитена» https://www.moscowmap.ru/metro.html#lines с помощью библиотеки jsoup.
+# 1) Obtaining data from an HTML page, creating and reading JSON files.
+Obtains the HTML code of the "List of Moscow Metro Stations" page https://www.moscowmap.ru/metro.html#lines using the jsoup library.
 
-Парсит полученную страницу и получает из неё:
-- Линии московского метро (получаете имя линии, номер линии).
-- Станции московского метро (получаете имя станции, номер линии).
+Parses the resulting page and obtains from it:
+- Moscow Metro lines (get line name, line number).
+- Moscow Metro stations (get station name, line number).
 
-Создаёт и записывает на диск JSON-файл со списком станций по линиям и списком линий по формату:
+Creates and writes to disk a JSON file with a list of stations by line and a list of lines in the following format:
 ![](https://github.com/artemmad/JavaAllExercices/blob/master/src/ru/mirea/exercies25and26/1.png?raw=true)
-Читает файл и выводит в консоль количество станций на каждой линии.
+Reads the file and outputs the number of stations on each line to the console.
